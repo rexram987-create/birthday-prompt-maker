@@ -1,30 +1,22 @@
 <!doctype html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#6d4aff">
-  <meta name="description" content="מחולל הנחיות לברכות יום הולדת ללא בינה מלאכותית">
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/icon.svg">
-  <link rel="stylesheet" href="/styles.css">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#6d4aff"><meta name="description" content="מחולל הנחיות לברכות יום הולדת ללא בינה מלאכותית">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/icon.svg"><link rel="stylesheet" href="/styles.css">
   <title>מחולל הנחיות ליום הולדת</title>
 </head>
-<body>
-<main class="app">
-  <header><h1>🎂 מחולל הנחיות ליום הולדת</h1><p>יוצרים הנחיה מותאמת אישית — ללא AI וללא API</p></header>
-  <form id="promptForm">
-    <label>שם בעל/ת יום ההולדת<input id="name" required placeholder="לדוגמה: נועה"></label>
-    <label>לשון הברכה<select id="gender"><option value="female">נקבה</option><option value="male">זכר</option></select></label>
-    <label>סוג הברכה<select id="type"><option value="cake">עוגת יום הולדת</option><option value="card">כרטיס ברכה מקושט</option><option value="flowers">ברכה עם פרחים</option><option value="balloons">בלונים ומתנות</option><option value="nature">ברכה בטבע</option></select></label>
-    <label>מוטיב / נושא<input id="theme" placeholder="לדוגמה: פיזיותרפיה, מוזיקה, דינוזאורים"></label>
-    <label>סגנון<select id="style"><option value="3d">תלת־ממדי (3D)</option><option value="photo">פוטוריאליסטי</option><option value="illustration">איורי</option><option value="elegant">אלגנטי</option><option value="cartoon">מצויר</option></select></label>
-    <label>רקע<select id="background"><option value="transparent">שקוף</option><option value="garden">גן פורח</option><option value="studio">סטודיו חגיגי</option><option value="sky">שמיים בהירים</option><option value="custom">לפי המוטיב</option></select></label>
-    <label>יחס תמונה<select id="ratio"><option>9:16</option><option>16:9</option><option>1:1</option></select></label>
-    <button type="submit">צור הנחיה</button>
-  </form>
-  <section id="resultBox" hidden aria-live="polite"><h2>ההנחיה שלך</h2><textarea id="result" readonly></textarea><button id="copy" type="button">העתק הנחיה</button><p id="status"></p></section>
-</main>
-<script src="/app.js"></script>
-</body></html>
+<body><main class="app">
+<header><h1>🎂 מחולל הנחיות ליום הולדת</h1><p>יוצרים הנחיה מותאמת אישית — ללא AI וללא API</p></header>
+<form id="promptForm">
+<label>שם בעל/ת יום ההולדת<input id="name" required placeholder="לדוגמה: נועה"></label>
+<label>לשון הברכה<select id="gender"><option value="female">נקבה</option><option value="male">זכר</option></select></label>
+<label>סוג הברכה<select id="type"><option value="cake">עוגת יום הולדת</option><option value="card">כרטיס ברכה מקושט</option><option value="flowers">ברכה עם פרחים</option><option value="balloons">בלונים ומתנות</option><option value="nature">ברכה בטבע</option></select></label>
+<label>מוטיב / נושא<input id="theme" placeholder="לדוגמה: פיזיותרפיה, מוזיקה, דינוזאורים"></label>
+<label>כיתוב אישי <small>(אופציונלי)</small><textarea id="customText" rows="3" placeholder="לדוגמה: למעיין היקרה, יום הולדת שמח! באהבה מכל המשפחה"></textarea></label>
+<label>סגנון<select id="style"><option value="3d">תלת־ממדי (3D)</option><option value="photo">פוטוריאליסטי</option><option value="illustration">איורי</option><option value="elegant">אלגנטי</option><option value="cartoon">מצויר</option></select></label>
+<label>רקע<select id="background"><option value="transparent">שקוף</option><option value="garden">גן פורח</option><option value="studio">סטודיו חגיגי</option><option value="sky">שמיים בהירים</option><option value="custom">לפי המוטיב</option></select></label>
+<label>יחס תמונה<select id="ratio"><option>9:16</option><option>16:9</option><option>1:1</option></select></label>
+<button type="submit">צור הנחיה</button></form>
+<section id="resultBox" hidden aria-live="polite"><h2>ההנחיה שלך</h2><textarea id="result" readonly></textarea><button id="copy" type="button">העתק הנחיה</button><p id="status"></p></section>
+</main><script src="/app.js"></script></body></html>
