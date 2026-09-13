@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="אייקון עוגת יום הולדת">
+  <rect width="512" height="512" rx="112" fill="#6d4aff"/>
+  <circle cx="256" cy="256" r="190" fill="#ffffff" opacity=".12"/>
+  <rect x="122" y="250" width="268" height="150" rx="28" fill="#fff4df"/>
+  <rect x="122" y="250" width="268" height="42" rx="22" fill="#ff76ae"/>
+  <path d="M122 292h268v34c-28 0-28 30-56 30s-28-30-56-30-28 30-56 30-28-30-56-30-28 30-44 30z" fill="#ffc857"/>
+  <rect x="154" y="214" width="204" height="52" rx="24" fill="#fff8ee"/>
+  <rect x="154" y="214" width="204" height="22" rx="11" fill="#6ed4ff"/>
+  <rect x="184" y="134" width="24" height="86" rx="10" fill="#ff4f86"/>
+  <rect x="244" y="118" width="24" height="102" rx="10" fill="#ffc857"/>
+  <rect x="304" y="134" width="24" height="86" rx="10" fill="#57d68d"/>
+  <path d="M196 124c-20-22 2-42 0-58 26 18 30 40 0 58zM256 108c-20-22 2-42 0-58 26 18 30 40 0 58zM316 124c-20-22 2-42 0-58 26 18 30 40 0 58z" fill="#ffd34e"/>
+  <circle cx="176" cy="346" r="10" fill="#6d4aff"/><circle cx="226" cy="366" r="10" fill="#ff4f86"/><circle cx="286" cy="348" r="10" fill="#57d68d"/><circle cx="336" cy="370" r="10" fill="#ffc857"/>
+</svg>
